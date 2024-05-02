@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonTheme" parent="Theme.MaterialComponents.Light">
+        <item name="colorPrimary">@color/Primary</item>
+        <item name="colorAccent">@color/Accent</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Theme.Test2.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowSplashScreenBackground">@color/blue</item>
+        <item name="android:windowSplashScreenAnimatedIcon"></item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+    </style>
+</resources>
