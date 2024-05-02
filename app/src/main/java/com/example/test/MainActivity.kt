@@ -17,6 +17,7 @@ import androidx.navigation.Navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI.navigateUp
 import com.example.test.databinding.ActivityMainBinding
+import com.airbnb.lottie.LottieAnimationView
 
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
