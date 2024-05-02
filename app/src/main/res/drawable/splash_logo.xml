@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background Shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="20dp"/>
+            <solid android:color="#0F1353"/>
+        </shape>
+    </item>
+    <!-- Foreground Image -->
+    <item>
+        <bitmap
+            android:gravity="center"
+            android:src="@drawable/disney" />
+    </item>
+</layer-list>
